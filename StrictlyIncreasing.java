@@ -2,6 +2,7 @@ class StrictlyIncreasing{
     
     
     //Failing one test case
+    //HINT : Return true if it is possible to obtain a strictly increasing array by applying the digit-swap operation at most once, and false otherwise.
 
 static HashSet<Integer> set;
 
