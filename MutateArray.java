@@ -1,4 +1,6 @@
 class MutateArray{
+    
+    //passed all test cases
 
 int[] mutateTheArray(int n, int[] a) {
     int [] b = new int[a.length];
