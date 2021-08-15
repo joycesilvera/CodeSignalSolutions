@@ -1,4 +1,7 @@
-class strictlyIncreasing{
+class StrictlyIncreasing{
+    
+    
+    //Failing one test case
 
 static HashSet<Integer> set;
 
