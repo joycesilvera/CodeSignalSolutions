@@ -1,9 +1,9 @@
 boolean[] boundedRatio(int[] a, int l, int r) {
 boolean[] b = new boolean[a.length];
 
-for(int I = 0; I < a.length; I++){
-    if(isBounded(a[I], I, l, r))
-        b[I] = true;
+for(int i = 0; i < a.length; i++){
+    if(isBounded(a[i], i, l, r))
+        b[i] = true;
   
     }
 return b;
@@ -11,8 +11,8 @@ return b;
 
 boolean isBounded(int original, int idx , int b, int c){
     
-    for(int I = b; I <= c; I++){
-        if((I * (idx+1)) == original){
+    for(int i = b; i <= c; i++){
+        if((i * (idx+1)) == original){
             return true;
         }
     }
