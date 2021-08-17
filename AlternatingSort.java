@@ -12,7 +12,7 @@ boolean alternatingSort(int[] a) {
         
     }
    
-    if(a.length % 2 != 0){
+    if(a.length % 2 != 0){ //printing the odd element
        b[index++] = a[l++];
      }
     
